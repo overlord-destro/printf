@@ -1,0 +1,31 @@
+.TH "_PRINTF" "1" "October 17, 2022" "_printf 1.0.0" "User Manual"
+.hy
+.SH NAME
+.PP
+_printf \- produces output according to format
+.SH SYNOPSIS
+.PP
+_printf [\f[I]FORMAT\f[R]]\&...
+.SH DESCRIPTION
+.PP
+_printf is a version of the printf function in C built from scratch to
+handle paricular format specifiers and writes output to stdout
+.SH RETURN VALUE
+.PP
+Returns number of characters printed except null
+.SH FORMAT SPECIFIERS
+.TP
+.B c
+the argument is expected to be a single character
+.TP
+.B s
+the argument is expected to be a string
+.TP
+.B d, i
+the argument is converted to decimal notation
+.SH BUGS
+.PP
+No known bugs
+.SH AUTHORS
+.PP
+Edem Coffie, Levia Sekyi
