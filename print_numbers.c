@@ -7,7 +7,7 @@
 int print_i(va_list i)
 {
 	int a[10];
-	int i, m, n, sum, count;
+	int j, m, n, sum, count;
 
 	n = va_arg(i, int);
 	count = 0;
@@ -22,7 +22,7 @@ int print_i(va_list i)
 	{
 		_putchar('-');
 		count++;
-		for (j = 0, j < 10; j++)
+		for (j = 0; j < 10; j++)
 			a[j] *= -1;
 	}
 	for (j = 0, sum = 0; j < 10; j++)
