@@ -1,6 +1,10 @@
 #ifndef MAIN_H
 #define MAIN_H
-
+/**
+*struct print - struct for printing
+*@t: type to print
+*@f: function to print
+*/
 #include <stdarg.h>
 
 typedef struct print
