@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
-*check_format_specifier - checks for valid format specifier
+*check_format_specifiers - checks for valid format specifier
 *@format: format specifier
 *Return: pointer to function or null
 */
