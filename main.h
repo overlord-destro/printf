@@ -2,7 +2,11 @@
 #define MAIN_H
 
 #include <stdarg.h>
-
+/**
+*struct print - struct for printing
+*@t: type to print
+*@f: function to print
+*/
 typedef struct print
 {
 	char *t;
